@@ -15172,3 +15172,223 @@ Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 11
 2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - username=username
 2023-10-30 14:15:36 INFO  Log:14 - Adding the hashmap value to LinkedList - {engine_url_variable=cloverUrl, password=password, ExpectedPricingString=Find the right solution to power your business, UrlContians=www.clover.com, pageTitle=Clover, browser=CHROME, search_assert_value=The all‑in‑one system to help your business thrive, env=test, search_string=cnbc, username=username}
 2023-10-30 14:15:36 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://clover.com
+2023-10-30 14:15:42 INFO  Log:14 - AssertPageTitle: Actual - POS System & Credit Card Readers | Clover
+2023-10-30 14:15:42 INFO  Log:14 - AssertPageTitle: Expected - Clover
+2023-10-30 14:15:42 INFO  Log:14 - AssertPageURL: Actual - https://www.clover.com/
+2023-10-30 14:15:42 INFO  Log:14 - AssertPageURL: Expected - www.clover.com
+2023-10-30 14:15:44 INFO  Log:14 - AssertEquals: Actual - The all‑in‑one system to help your business thrive
+2023-10-30 14:15:44 INFO  Log:14 - AssertEquals: Expected - The all‑in‑one system to help your business thrive
+2023-10-30 14:15:44 INFO  Log:14 - ConfigProvider - getAsString: parameter = CHROMEHEADLESS
+2023-10-30 14:16:16 ERROR Log:24 - Error in getElement with Expected Condition
+2023-10-30 14:16:16 ERROR Log:24 - com.clover.solution.ui.page.CloverPage-Exception in clickTheElementnull
+2023-10-30 14:16:16 INFO  Log:14 - AssertEquals: Actual - ERROR
+2023-10-30 14:16:16 INFO  Log:14 - AssertEquals: Expected - Find the right solution to power your business
+2023-10-30 14:16:16 INFO  Log:14 - TC004_check_the_Clover_Site_JSON test is skipped.
+2023-10-30 14:16:16 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:16:16 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:16:16 INFO  Log:14 - Tests is starting!
+2023-10-30 14:16:16 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:16:16 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:16:16 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:16:16 INFO  Log:14 - com.clover.solution.ui.page.CloverPageCreating page constractor and its super
+2023-10-30 14:16:16 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:16:16 INFO  Log:14 - TC004_check_the_Clover_Site_JSON test is starting.
+2023-10-30 14:16:16 INFO  Log:14 - JSON file reader from path - /media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src//main//java//com//clover//solution//ui//data//TC004_check_the_Clover_Site_JSON.json
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - engine_url_variable=cloverUrl
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - password=password
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - ExpectedPricingString=Find the right solution to power your business
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - UrlContians=www.clover.com
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - pageTitle=Clover
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - browser=CHROME
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - search_assert_value=The all‑in‑one system to help your business thrive
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - env=test
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - search_string=cnbc
+2023-10-30 14:16:16 INFO  Log:14 - Adding Key and Value from JSON file - username=username
+2023-10-30 14:16:16 INFO  Log:14 - Adding the hashmap value to LinkedList - {engine_url_variable=cloverUrl, password=password, ExpectedPricingString=Find the right solution to power your business, UrlContians=www.clover.com, pageTitle=Clover, browser=CHROME, search_assert_value=The all‑in‑one system to help your business thrive, env=test, search_string=cnbc, username=username}
+2023-10-30 14:16:16 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://clover.com
+2023-10-30 14:16:22 INFO  Log:14 - AssertPageTitle: Actual - Credit Card Processing for Small Businesses | POS Solutions | Clover
+2023-10-30 14:16:22 INFO  Log:14 - AssertPageTitle: Expected - Clover
+2023-10-30 14:16:22 INFO  Log:14 - AssertPageURL: Actual - https://www.clover.com/
+2023-10-30 14:16:22 INFO  Log:14 - AssertPageURL: Expected - www.clover.com
+2023-10-30 14:16:22 INFO  Log:14 - AssertEquals: Actual - The all‑in‑one system to help your business thrive
+2023-10-30 14:16:22 INFO  Log:14 - AssertEquals: Expected - The all‑in‑one system to help your business thrive
+2023-10-30 14:16:22 INFO  Log:14 - ConfigProvider - getAsString: parameter = CHROMEHEADLESS
+2023-10-30 14:16:26 INFO  Log:14 - AssertEquals: Actual - Find the right solution to power your business
+2023-10-30 14:16:26 INFO  Log:14 - AssertEquals: Expected - Find the right solution to power your business
+2023-10-30 14:16:26 INFO  Log:14 - TC004_check_the_Clover_Site_JSON test is succeed.
+2023-10-30 14:16:26 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:16:26 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:16:26 INFO  Log:14 - I am in onFinish method Testing the clover site login, validate and navigating to pricing page and valdiate
+2023-10-30 14:16:26 INFO  Log:14 - I am in onStart method Testing the Bing search engine using Excel data file as source
+2023-10-30 14:16:26 INFO  Log:14 - Tests is starting!
+2023-10-30 14:16:26 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:16:26 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:16:26 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:16:26 INFO  Log:14 - com.clover.solution.ui.page.SearchPageCreating page constractor and its super
+2023-10-30 14:16:26 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:16:26 INFO  Log:14 - TC004_check_the_search_engine_bing_excel test is starting.
+2023-10-30 14:16:27 INFO  Log:14 - Reading from Excelengine_url_variable=googleUrl
+2023-10-30 14:16:27 INFO  Log:14 - Reading from Excelsearch_string=cnbc
+2023-10-30 14:16:27 INFO  Log:14 - Reading from Excelsearch_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:16:27 INFO  Log:14 - Reading from ExcelpageTitle=test
+2023-10-30 14:16:27 INFO  Log:14 - Reading from ExcelUrlContians=UrlContians
+2023-10-30 14:16:27 INFO  Log:14 - Adding to Excel LinkedHashMap{engine_url_variable=googleUrl, search_string=cnbc, search_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings, pageTitle=test, UrlContians=UrlContians}
+2023-10-30 14:16:27 INFO  Log:14 - Reading from Excelengine_url_variable=bingUrl
+2023-10-30 14:16:27 INFO  Log:14 - Reading from Excelsearch_string=cnbc
+2023-10-30 14:16:27 INFO  Log:14 - Reading from Excelsearch_assert_value=Stock Markets, Business News, Financials, Earnings - CNBC
+2023-10-30 14:16:27 INFO  Log:14 - Reading from ExcelpageTitle=test
+2023-10-30 14:16:27 INFO  Log:14 - Reading from ExcelUrlContians=UrlContians
+2023-10-30 14:16:27 INFO  Log:14 - Adding to Excel LinkedHashMap{engine_url_variable=bingUrl, search_string=cnbc, search_assert_value=Stock Markets, Business News, Financials, Earnings - CNBC, pageTitle=test, UrlContians=UrlContians}
+2023-10-30 14:16:27 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://bing.com
+2023-10-30 14:16:58 ERROR Log:24 - Error in getElement with Expected Condition
+2023-10-30 14:16:58 ERROR Log:24 - com.clover.solution.ui.page.SearchPage-Exception in clickTheElementnull
+2023-10-30 14:17:29 ERROR Log:24 - Error in getElement with Expected Condition
+2023-10-30 14:17:29 ERROR Log:24 - com.clover.solution.ui.page.SearchPage-Exception in clickTheElementnull
+2023-10-30 14:17:29 INFO  Log:14 - AssertEquals: Actual - ERROR
+2023-10-30 14:17:29 INFO  Log:14 - AssertEquals: Expected - Stock Markets, Business News, Financials, Earnings - CNBC
+2023-10-30 14:17:29 INFO  Log:14 - TC004_check_the_search_engine_bing_excel test is skipped.
+2023-10-30 14:17:30 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:17:30 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:17:30 INFO  Log:14 - Tests is starting!
+2023-10-30 14:17:30 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:17:30 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:17:30 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:17:30 INFO  Log:14 - com.clover.solution.ui.page.SearchPageCreating page constractor and its super
+2023-10-30 14:17:30 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:17:30 INFO  Log:14 - TC004_check_the_search_engine_bing_excel test is starting.
+2023-10-30 14:17:30 INFO  Log:14 - Reading from Excelengine_url_variable=googleUrl
+2023-10-30 14:17:30 INFO  Log:14 - Reading from Excelsearch_string=cnbc
+2023-10-30 14:17:30 INFO  Log:14 - Reading from Excelsearch_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:17:30 INFO  Log:14 - Reading from ExcelpageTitle=test
+2023-10-30 14:17:30 INFO  Log:14 - Reading from ExcelUrlContians=UrlContians
+2023-10-30 14:17:30 INFO  Log:14 - Adding to Excel LinkedHashMap{engine_url_variable=googleUrl, search_string=cnbc, search_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings, pageTitle=test, UrlContians=UrlContians}
+2023-10-30 14:17:30 INFO  Log:14 - Reading from Excelengine_url_variable=bingUrl
+2023-10-30 14:17:30 INFO  Log:14 - Reading from Excelsearch_string=cnbc
+2023-10-30 14:17:30 INFO  Log:14 - Reading from Excelsearch_assert_value=Stock Markets, Business News, Financials, Earnings - CNBC
+2023-10-30 14:17:30 INFO  Log:14 - Reading from ExcelpageTitle=test
+2023-10-30 14:17:30 INFO  Log:14 - Reading from ExcelUrlContians=UrlContians
+2023-10-30 14:17:30 INFO  Log:14 - Adding to Excel LinkedHashMap{engine_url_variable=bingUrl, search_string=cnbc, search_assert_value=Stock Markets, Business News, Financials, Earnings - CNBC, pageTitle=test, UrlContians=UrlContians}
+2023-10-30 14:17:30 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://bing.com
+2023-10-30 14:17:32 INFO  Log:14 - AssertEquals: Actual - 
+2023-10-30 14:17:32 INFO  Log:14 - AssertEquals: Expected - Stock Markets, Business News, Financials, Earnings - CNBC
+2023-10-30 14:17:32 INFO  Log:14 - TC004_check_the_search_engine_bing_excel test is failed.
+2023-10-30 14:17:32 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:17:32 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:17:32 INFO  Log:14 - I am in onFinish method Testing the Bing search engine using Excel data file as source
+2023-10-30 14:17:32 INFO  Log:14 - BaseTestDriver is cooling down & Tests are ending!
+2023-10-30 14:17:32 INFO  Log:14 - ConfigProvider - getAsString: parameter = true
+2023-10-30 14:17:32 DEBUG Log:34 - DriverManagerShuting down the master driver
+2023-10-30 14:17:32 DEBUG Log:34 - DriverManagerBrowser is closed, Driver instance is killed
+2023-10-30 14:17:32 DEBUG cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2023-10-30 14:17:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2023-10-30 14:17:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2023-10-30 14:17:32 DEBUG cache:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2023-10-30 14:17:33 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
