@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Clover Test Automation Framework Assesessment Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.clover.solution.ui.util.listeners.TestListener"/>
+    <listener class-name="com.clover.solution.ui.util.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Testing the clover site login, validate and navigating to pricing page and valdiate(failed)" verbose="0">
+    <classes>
+      <class name="com.clover.solution.ui.test.TC004_check_the_Clover_Site">
+        <methods>
+          <include name="postCondition"/>
+          <include name="TC004_check_the_Clover_Site_JSON" invocation-numbers="0"/>
+          <include name="cooldown"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.clover.solution.ui.test.TC004_check_the_Clover_Site -->
+    </classes>
+  </test> <!-- Testing the clover site login, validate and navigating to pricing page and valdiate(failed) -->
+</suite> <!-- Failed suite [Clover Test Automation Framework Assesessment Suite] -->

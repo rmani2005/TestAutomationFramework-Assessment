@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Clover Test Automation Framework Assesessment Suite" >
+    <listeners>
+        <listener class-name="com.clover.solution.ui.util.listeners.TestListener"/>
+        <listener class-name="com.clover.solution.ui.util.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Testing the Google search engine using JSON data file as source">
+        <classes><class name="com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON"/></classes>
+    </test>
+    <test name="Testing the Google search engine using direct data by calling detailed method in page class">
+		<classes><class name="com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal"/> </classes>
+    </test>
+    <test name="Testing the Google search engine using the declared method in page class from test">
+        <classes> <class name="com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2"/> </classes>
+    </test>
+    <test name="Testing the clover site login, validate and navigating to pricing page and valdiate">
+        <classes><class name="com.clover.solution.ui.test.TC004_check_the_Clover_Site"/></classes>
+    </test>
+    <test name="Testing the Bing search engine using Excel data file as source">
+        <classes><class name="com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata"/></classes>
+    </test>  
+</suite>

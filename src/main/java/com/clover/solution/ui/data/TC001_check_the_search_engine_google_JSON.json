@@ -1,0 +1,20 @@
+[  
+    {
+    "env": "test",
+    "browser": "CHROME",
+    "username": "username",
+    "password": "password",
+    "engine_url_variable": "googleUrl",
+    "search_string": "cnbc",
+    "search_assert_value": "CNBC: Stock Markets, Business News, Financials, Earnings"
+	},
+	{
+    "env": "test",
+    "browser": "CHROME",
+    "username": "username",
+    "password": "password",
+    "engine_url_variable": "googleUrl",
+    "search_string": "cnbc",
+    "search_assert_value": "CNBC: Stock Markets, Business News, Financials, Earnings"
+	}
+]

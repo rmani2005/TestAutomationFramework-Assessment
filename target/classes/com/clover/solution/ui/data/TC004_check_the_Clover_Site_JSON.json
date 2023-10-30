@@ -1,0 +1,14 @@
+[  
+    {
+    "env": "test",
+    "browser": "CHROME",
+    "username": "username",
+    "password": "password",
+    "engine_url_variable": "cloverUrl",
+    "search_string": "cnbc",
+    "search_assert_value": "The all‑in‑one system to help your business thrive",
+    "pageTitle":"Clover",
+    "UrlContians":"www.clover.com",
+    "ExpectedPricingString":"Find the right solution to power your business"
+	}
+]
