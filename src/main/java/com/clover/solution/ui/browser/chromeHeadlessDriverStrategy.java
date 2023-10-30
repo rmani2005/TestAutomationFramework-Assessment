@@ -22,9 +22,13 @@ public class chromeHeadlessDriverStrategy extends browserDriverStrategy
             options.addArguments("--disable-extensions"); // disabling extensions
             options.addArguments("--disable-gpu"); // applicable to windows os only
             options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+            options.addArguments("--log-level=3","--remote-allow-origins=*");
+            //For Running in EC2
+            options.addArguments("--remote-debugging-port=9222");
+            
              // Bypass OS security model
             //options.addArguments("window-size=1920,1080");
-            options.addArguments("--log-level=3","--remote-allow-origins=*");
+           
             //options.setAcceptInsecureCerts(true);
             //System.setProperty("webdriver.chrome.silentOutput", "true");
             //options.addArguments(Arrays.asList("--window-position=0,0"));
