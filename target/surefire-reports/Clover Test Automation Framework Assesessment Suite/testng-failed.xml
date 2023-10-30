@@ -17,4 +17,16 @@
       </class> <!-- com.clover.solution.ui.test.TC004_check_the_Clover_Site -->
     </classes>
   </test> <!-- Testing the clover site login, validate and navigating to pricing page and valdiate(failed) -->
+  <test thread-count="5" name="Testing the Bing search engine using Excel data file as source(failed)" verbose="0">
+    <classes>
+      <class name="com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata">
+        <methods>
+          <include name="TC004_check_the_search_engine_bing_excel" invocation-numbers="0"/>
+          <include name="preCondition"/>
+          <include name="cooldown"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata -->
+    </classes>
+  </test> <!-- Testing the Bing search engine using Excel data file as source(failed) -->
 </suite> <!-- Failed suite [Clover Test Automation Framework Assesessment Suite] -->

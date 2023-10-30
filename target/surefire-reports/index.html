@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
+                    <span class="method-stats">8 methods,  2 skipped,  6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Clover_Test_Automation_Framework_Assesessment_Suite" title="com.clover.solution.ui.test.TC004_check_the_Clover_Site" class="method navigator-link" hash-for-method="TC004_check_the_Clover_Site_JSON(public void com.clover.solution.ui.test.TC004_check_the_Clover_Site.TC004_check_the_Clover_Site_JSON...)">TC004_check_the_Clover_Site_JSON(public void com.clover.solution.ui.test.TC004_check_the_Clover_Site.TC004_check_the_Clover_Site_JSON...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Clover_Test_Automation_Framework_Assesessment_Suite" title="com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata" class="method navigator-link" hash-for-method="TC004_check_the_search_engine_bing_excel(public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the...)">TC004_check_the_search_engine_bing_excel(public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Clover_Test_Automation_Framework_Assesessment_Suite -->
@@ -178,6 +183,31 @@
 </div> <!-- stack-trace -->
                   <em>
 (TC004 check the clover Site using JSON)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Clover_Test_Automation_Framework_Assesessment_Suite-class-skipped -->
+          <div class="suite-Clover_Test_Automation_Framework_Assesessment_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC004_check_the_search_engine_bing_excel(public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the...)">
+                  </a> <!-- TC004_check_the_search_engine_bing_excel(public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the...) -->
+                  <span class="method-name">TC004_check_the_search_engine_bing_excel</span>
+                  <span class="parameters">(public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the_search_engine_bing_excel(java.lang.reflect.Method))</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Stock Markets, Business News, Financials, Earnings - CNBC] but found [ERROR]
+	at com.clover.solution.ui.page.BasePage.assertEqual(BasePage.java:321)
+	at com.clover.solution.ui.page.SearchPage.searchAndAssert_bing(SearchPage.java:72)
+	at com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the_search_engine_bing_excel(TC004_check_the_search_engine_bing_exceldata.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC004 check the search engine Bing - using excel data)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -370,40 +400,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC004_check_the_Clover_Site_JSON')
-data.setCell(0, 2, 'com.clover.solution.ui.test.TC004_check_the_Clover_Site')
-data.setCell(0, 3, 38538);
+data.setCell(0, 1, 'TC004_check_the_search_engine_bing_excel')
+data.setCell(0, 2, 'com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata')
+data.setCell(0, 3, 62638);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TC004_check_the_Clover_Site_JSON')
 data.setCell(1, 2, 'com.clover.solution.ui.test.TC004_check_the_Clover_Site')
-data.setCell(1, 3, 9409);
+data.setCell(1, 3, 39244);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC001_check_the_search_engine_google_JSON')
-data.setCell(2, 2, 'com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON')
-data.setCell(2, 3, 5490);
+data.setCell(2, 1, 'TC004_check_the_Clover_Site_JSON')
+data.setCell(2, 2, 'com.clover.solution.ui.test.TC004_check_the_Clover_Site')
+data.setCell(2, 3, 10182);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC003_check_the_search_engine_Google_type')
-data.setCell(3, 2, 'com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2')
-data.setCell(3, 3, 4374);
+data.setCell(3, 1, 'TC001_check_the_search_engine_google_JSON')
+data.setCell(3, 2, 'com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON')
+data.setCell(3, 3, 7023);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'TC002_check_the_search_engine_Google_Normal1')
 data.setCell(4, 2, 'com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal')
-data.setCell(4, 3, 4086);
+data.setCell(4, 3, 4484);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC003_check_the_search_engine_Google_type2')
-data.setCell(5, 2, 'com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal')
-data.setCell(5, 3, 3926);
+data.setCell(5, 1, 'TC003_check_the_search_engine_Google_type')
+data.setCell(5, 2, 'com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2')
+data.setCell(5, 3, 4127);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC004_check_the_search_engine_bing_excel')
-data.setCell(6, 2, 'com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata')
-data.setCell(6, 3, 3708);
+data.setCell(6, 1, 'TC003_check_the_search_engine_Google_type2')
+data.setCell(6, 2, 'com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal')
+data.setCell(6, 3, 3692);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC004_check_the_search_engine_bing_excel')
+data.setCell(7, 2, 'com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata')
+data.setCell(7, 3, 3571);
 window.suiteTableData['Clover_Test_Automation_Framework_Assesessment_Suite']= { tableData: data, tableDiv: 'times-div-Clover_Test_Automation_Framework_Assesessment_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Clover_Test_Automation_Framework_Assesessment_Suite">
               </div> <!-- times-div-Clover_Test_Automation_Framework_Assesessment_Suite -->
             </div> <!-- times-div -->
@@ -436,99 +470,111 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC001_check_the_search_engine_google_JSON(public void com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON.TC001_check_the_se...)</span>
-                <span class="method-start">29 ms</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">5522 ms</span>
+                <span class="method-start">7060 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition</span>
-                <span class="method-start">5600 ms</span>
+                <span class="method-start">7165 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC002_check_the_search_engine_Google_Normal1(public void com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal.TC002_check_the_...)</span>
-                <span class="method-start">5603 ms</span>
+                <span class="method-start">7168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">9690 ms</span>
+                <span class="method-start">11653 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition</span>
-                <span class="method-start">9756 ms</span>
+                <span class="method-start">11724 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC003_check_the_search_engine_Google_type2(public void com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal.TC003_check_the_...)</span>
-                <span class="method-start">9760 ms</span>
+                <span class="method-start">11727 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">13687 ms</span>
+                <span class="method-start">15420 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition</span>
-                <span class="method-start">13745 ms</span>
+                <span class="method-start">15478 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC003_check_the_search_engine_Google_type(public void com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2.TC003_check_the_s...)</span>
-                <span class="method-start">13747 ms</span>
+                <span class="method-start">15481 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">18122 ms</span>
+                <span class="method-start">19609 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.clover.solution.ui.test.TC004_check_the_Clover_Site</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition</span>
-                <span class="method-start">18183 ms</span>
+                <span class="method-start">19672 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC004_check_the_Clover_Site_JSON(public void com.clover.solution.ui.test.TC004_check_the_Clover_Site.TC004_check_the_Clover_Site_JSON...)</span>
-                <span class="method-start">18187 ms</span>
+                <span class="method-start">19674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">56993 ms</span>
+                <span class="method-start">59063 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition</span>
-                <span class="method-start">58145 ms</span>
+                <span class="method-start">59817 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC004_check_the_Clover_Site_JSON(public void com.clover.solution.ui.test.TC004_check_the_Clover_Site.TC004_check_the_Clover_Site_JSON...)</span>
-                <span class="method-start">58148 ms</span>
+                <span class="method-start">59826 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">67558 ms</span>
+                <span class="method-start">70009 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition</span>
-                <span class="method-start">68053 ms</span>
+                <span class="method-start">70512 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC004_check_the_search_engine_bing_excel(public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the...)</span>
-                <span class="method-start">68064 ms</span>
+                <span class="method-start">70519 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">71773 ms</span>
+                <span class="method-start">133637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition</span>
+                <span class="method-start">133772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC004_check_the_search_engine_bing_excel(public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the...)</span>
+                <span class="method-start">133775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">137347 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">cooldown</span>
-                <span class="method-start">71992 ms</span>
+                <span class="method-start">137570 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
