@@ -15044,3 +15044,131 @@ Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 11
 2023-10-30 13:41:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2023-10-30 13:41:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2023-10-30 13:41:24 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 14:15:14 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 14:15:15 INFO  Log:14 - I am in onStart method Testing the Google search engine using JSON data file as source
+2023-10-30 14:15:15 INFO  Log:14 - ConfigProvider - getAsString: parameter = CHROMEHEADLESS
+2023-10-30 14:15:17 INFO  Log:14 - DriverManager-Setting up the Timeouts & window Maximize
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - DriverManager-Inilizing the Browser configuration
+2023-10-30 14:15:17 INFO  Log:14 - DriverManager-Inilizing the Master Driver thread
+2023-10-30 14:15:17 INFO  Log:14 - Tests is starting!
+2023-10-30 14:15:17 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 15
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:17 INFO  Log:14 - com.clover.solution.ui.page.SearchPageCreating page constractor and its super
+2023-10-30 14:15:17 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:17 INFO  Log:14 - TC001_check_the_search_engine_google_JSON test is starting.
+2023-10-30 14:15:17 INFO  Log:14 - JSON file reader from path - /media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src//main//java//com//clover//solution//ui//data//TC001_check_the_search_engine_google_JSON.json
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - engine_url_variable=googleUrl
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - password=password
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - browser=CHROME
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - search_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - env=test
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - search_string=cnbc
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - username=username
+2023-10-30 14:15:17 INFO  Log:14 - Adding the hashmap value to LinkedList - {engine_url_variable=googleUrl, password=password, browser=CHROME, search_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings, env=test, search_string=cnbc, username=username}
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - engine_url_variable=googleUrl
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - password=password
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - browser=CHROME
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - search_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - env=test
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - search_string=cnbc
+2023-10-30 14:15:17 INFO  Log:14 - Adding Key and Value from JSON file - username=username
+2023-10-30 14:15:17 INFO  Log:14 - Adding the hashmap value to LinkedList - {engine_url_variable=googleUrl, password=password, browser=CHROME, search_assert_value=CNBC: Stock Markets, Business News, Financials, Earnings, env=test, search_string=cnbc, username=username}
+2023-10-30 14:15:17 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://google.com
+2023-10-30 14:15:23 INFO  Log:14 - AssertEquals: Actual - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:23 INFO  Log:14 - AssertEquals: Expected - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:23 INFO  Log:14 - TC001_check_the_search_engine_google_JSON test is succeed.
+2023-10-30 14:15:23 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:23 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:15:23 INFO  Log:14 - I am in onFinish method Testing the Google search engine using JSON data file as source
+2023-10-30 14:15:23 INFO  Log:14 - I am in onStart method Testing the Google search engine using direct data by calling detailed method in page class
+2023-10-30 14:15:23 INFO  Log:14 - Tests is starting!
+2023-10-30 14:15:23 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:15:23 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:23 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:23 INFO  Log:14 - com.clover.solution.ui.page.SearchPageCreating page constractor and its super
+2023-10-30 14:15:23 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:23 INFO  Log:14 - TC002_check_the_search_engine_Google_Normal1 test is starting.
+2023-10-30 14:15:23 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://google.com
+2023-10-30 14:15:27 INFO  Log:14 - AssertEquals: Actual - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:27 INFO  Log:14 - AssertEquals: Expected - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:27 INFO  Log:14 - TC002_check_the_search_engine_Google_Normal1 test is succeed.
+2023-10-30 14:15:27 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:27 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:15:27 INFO  Log:14 - Tests is starting!
+2023-10-30 14:15:27 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:15:27 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:27 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:27 INFO  Log:14 - com.clover.solution.ui.page.SearchPageCreating page constractor and its super
+2023-10-30 14:15:27 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:27 INFO  Log:14 - TC003_check_the_search_engine_Google_type2 test is starting.
+2023-10-30 14:15:27 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://google.com
+2023-10-30 14:15:32 INFO  Log:14 - AssertEquals: Actual - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:32 INFO  Log:14 - AssertEquals: Expected - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:32 INFO  Log:14 - TC003_check_the_search_engine_Google_type2 test is succeed.
+2023-10-30 14:15:32 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:32 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:15:32 INFO  Log:14 - I am in onFinish method Testing the Google search engine using direct data by calling detailed method in page class
+2023-10-30 14:15:32 INFO  Log:14 - I am in onStart method Testing the Google search engine using the declared method in page class from test
+2023-10-30 14:15:32 INFO  Log:14 - Tests is starting!
+2023-10-30 14:15:32 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:15:32 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:32 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:32 INFO  Log:14 - com.clover.solution.ui.page.SearchPageCreating page constractor and its super
+2023-10-30 14:15:32 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:32 INFO  Log:14 - TC003_check_the_search_engine_Google_type test is starting.
+2023-10-30 14:15:32 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://google.com
+2023-10-30 14:15:36 INFO  Log:14 - AssertEquals: Actual - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:36 INFO  Log:14 - AssertEquals: Expected - CNBC: Stock Markets, Business News, Financials, Earnings
+2023-10-30 14:15:36 INFO  Log:14 - TC003_check_the_search_engine_Google_type test is succeed.
+2023-10-30 14:15:36 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:36 INFO  Log:14 - WebDriver is cooling down
+2023-10-30 14:15:36 INFO  Log:14 - I am in onFinish method Testing the Google search engine using the declared method in page class from test
+2023-10-30 14:15:36 INFO  Log:14 - I am in onStart method Testing the clover site login, validate and navigating to pricing page and valdiate
+2023-10-30 14:15:36 INFO  Log:14 - Tests is starting!
+2023-10-30 14:15:36 INFO  Log:14 - Starting the Test & Opening up the WebDriver
+2023-10-30 14:15:36 INFO  Log:14 - ConfigProvider - getAsString: parameter = 30
+2023-10-30 14:15:36 INFO  Log:14 - ConfigProvider - getAsString: parameter = 1
+2023-10-30 14:15:36 INFO  Log:14 - com.clover.solution.ui.page.CloverPageCreating page constractor and its super
+2023-10-30 14:15:36 INFO  Log:14 - Clearing the cookies
+2023-10-30 14:15:36 INFO  Log:14 - TC004_check_the_Clover_Site_JSON test is starting.
+2023-10-30 14:15:36 INFO  Log:14 - JSON file reader from path - /media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src//main//java//com//clover//solution//ui//data//TC004_check_the_Clover_Site_JSON.json
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - engine_url_variable=cloverUrl
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - password=password
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - ExpectedPricingString=Find the right solution to power your business
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - UrlContians=www.clover.com
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - pageTitle=Clover
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - browser=CHROME
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - search_assert_value=The all‑in‑one system to help your business thrive
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - env=test
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - search_string=cnbc
+2023-10-30 14:15:36 INFO  Log:14 - Adding Key and Value from JSON file - username=username
+2023-10-30 14:15:36 INFO  Log:14 - Adding the hashmap value to LinkedList - {engine_url_variable=cloverUrl, password=password, ExpectedPricingString=Find the right solution to power your business, UrlContians=www.clover.com, pageTitle=Clover, browser=CHROME, search_assert_value=The all‑in‑one system to help your business thrive, env=test, search_string=cnbc, username=username}
+2023-10-30 14:15:36 INFO  Log:14 - ConfigProvider - getAsString: parameter = https://clover.com
