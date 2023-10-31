@@ -10,7 +10,29 @@ public class chromeHeadlessDriverStrategy extends browserDriverStrategy
 {
 	private ChromeOptions options;
 	
-    public WebDriver getDriverInstance() 
+    
+	public WebDriver getDriverInstance() 
+    {
+			String currentDirectory=System.getProperty("user.dir");
+			String fileName=currentDirectory + "//src//main//java//com//clover//solution//ui//browser//chromedriver";
+			
+			System.setProperty("webdriver.chrome.driver", fileName);
+            options = new ChromeOptions();
+            options.addArguments("--no-sandbox");
+            options.addArguments("--headless=new");
+            options.addArguments("--headless");
+
+            
+            //options.addArguments(Arrays.asList("--window-position=0,0"));
+           // options.addArguments(Arrays.asList("--window-size=1920,1080"));
+
+            //WebDriverManager.chromedriver().setup();
+            
+            return new ChromeDriver(options);
+    }
+	
+	
+	public WebDriver getDriverInstance_backup() 
     {
     	
             options = new ChromeOptions();

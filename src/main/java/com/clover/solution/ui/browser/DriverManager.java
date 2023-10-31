@@ -3,6 +3,7 @@ package com.clover.solution.ui.browser;
 import java.time.Duration;
 import java.util.function.Supplier;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.clover.solution.ui.configuration.BrowserConfiguration;
 import com.clover.solution.ui.configuration.ConfigProvider;
@@ -13,6 +14,7 @@ public class DriverManager
 	//Load all browser related details here after loading it from configuration
 	
 	private static ThreadLocal<WebDriver> MASTER_DRIVER = null;
+	private static ThreadLocal<RemoteWebDriver> MASTER_DRIVER_REMOTE = null;
 	private static ThreadLocal<BrowserConfiguration> BROWSER_CONFIGURATION;
 	private static browserDriverStrategy DRIVER_STRATEGY;
 	private static String MainBrowser;
@@ -33,6 +35,7 @@ public class DriverManager
 	static {
         BROWSER_CONFIGURATION = new ThreadLocal<BrowserConfiguration>();
         MASTER_DRIVER = new ThreadLocal<>();
+        MASTER_DRIVER_REMOTE = new ThreadLocal<>();
         MainBrowser=ConfigProvider.getAsString("webSettings.defaultBrowser").toUpperCase();
         //BROWSER_CONFIGURATION.set(Browser.CHROME);
         initlizeMasterDriver_normal();
@@ -62,6 +65,11 @@ public class DriverManager
 				DRIVER_STRATEGY=new chromeHeadlessDriverStrategy();
 				driver=DRIVER_STRATEGY.getDriverInstance();
 				break;
+			case "CHROMEREMOTE":
+				//MASTER_DRIVER_REMOTE=new chromeRemoteDriverStrategy();
+				//driver=DRIVER_STRATEGY.getDriverInstance();
+				break;
+				
 			case "FIREFOX":
 				DRIVER_STRATEGY=new firefoxDriverStrategy();
 				driver=DRIVER_STRATEGY.getDriverInstance();

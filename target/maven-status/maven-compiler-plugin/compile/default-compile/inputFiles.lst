@@ -68,4 +68,5 @@
 /media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src/main/java/com/clover/solution/ui/objectFindStrategy/CssFindStrategy.java
 /media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src/main/java/com/clover/solution/ui/objectFindStrategy/IdContainingFindStrategy.java
 /media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src/main/java/com/clover/solution/ui/objectFindStrategy/IdEndingWithFindStrategy.java
+/media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src/main/java/com/clover/solution/ui/browser/chromeRemoteDriverStrategy.java
 /media/rocky/81e509c3-f680-4aca-ae97-4b9ba8161528/Workspace-SeleniumKarate/clover.solution.ui/src/main/java/com/clover/solution/ui/reader/xmlReader.java

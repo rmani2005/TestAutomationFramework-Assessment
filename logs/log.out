@@ -15392,3 +15392,41 @@ Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 11
 2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2023-10-30 14:17:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2023-10-30 14:17:33 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/rocky/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2023-10-30 23:47:25 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:47:25 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:47:25 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:47:25 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:47:25 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:47:25 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:47:26 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:47:26 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:47:26 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:47:26 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:47:26 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:47:26 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:47:26 INFO  Log:14 - I am in onStart method Testing the Google search engine using JSON data file as source
+2023-10-30 23:47:26 INFO  Log:14 - ConfigProvider - getAsString: parameter = CHROMEHEADLESS
+2023-10-30 23:47:26 ERROR Log:24 - The driver executable must exist: /src/main/java/com/clover/solution/ui/browser/chromedriver
+2023-10-30 23:47:26 INFO  Log:14 - DriverManager-Setting up the Timeouts & window Maximize
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --ConfigProvider-- object for whole test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - BaseTest-Creating the --DriverManager-- object for whoel test execution flow
+2023-10-30 23:49:29 INFO  Log:14 - I am in onStart method Testing the Google search engine using JSON data file as source
+2023-10-30 23:49:29 INFO  Log:14 - ConfigProvider - getAsString: parameter = CHROMEHEADLESS
+2023-10-30 23:49:31 ERROR Log:24 - Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 118
+Current browser version is 114.0.5735.198 with binary path /opt/google/chrome/chrome 
+Host info: host: 'rocky-NUC7i3BNH', ip: '127.0.1.1'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-87-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --headless=new, --headless], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --headless=new, --headless], extensions: []}}}]
+2023-10-30 23:49:31 INFO  Log:14 - DriverManager-Setting up the Timeouts & window Maximize

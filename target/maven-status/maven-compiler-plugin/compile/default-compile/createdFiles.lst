@@ -76,6 +76,7 @@ com/clover/solution/ui/page/CloverPage.class
 com/clover/solution/ui/reader/textReader.class
 com/clover/solution/ui/test/TC002_check_the_search_engine_Google_Normal.class
 com/clover/solution/ui/webservices/CookiesService.class
+com/clover/solution/ui/browser/chromeRemoteDriverStrategy.class
 com/clover/solution/ui/util/logs/JSErrorLogs$1.class
 com/clover/solution/ui/util/listeners/Retry.class
 com/clover/solution/ui/objectFindStrategy/ClassContainingFindStrategy.class
