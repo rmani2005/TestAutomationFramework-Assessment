@@ -11,7 +11,7 @@ public class chromeHeadlessDriverStrategy extends browserDriverStrategy
 	private ChromeOptions options;
 	
     
-	public WebDriver getDriverInstance() 
+	public WebDriver getDriverInstance_backup() 
     {
 			String currentDirectory=System.getProperty("user.dir");
 			String fileName=currentDirectory + "//src//main//java//com//clover//solution//ui//browser//chromedriver";
@@ -32,7 +32,7 @@ public class chromeHeadlessDriverStrategy extends browserDriverStrategy
     }
 	
 	
-	public WebDriver getDriverInstance_backup() 
+	public WebDriver getDriverInstance() 
     {
     	
             options = new ChromeOptions();
