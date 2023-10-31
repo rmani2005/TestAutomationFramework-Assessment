@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="8" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-31T00:02:47 GMT-04:00" name="Clover Test Automation Framework Assesessment Suite" finished-at="2023-10-31T00:03:56 GMT-04:00" duration-ms="69347">
+    <groups>
+    </groups>
+    <test started-at="2023-10-31T00:02:47 GMT-04:00" name="Testing the Google search engine using JSON data file as source" finished-at="2023-10-31T00:02:54 GMT-04:00" duration-ms="7068">
+      <class name="com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON@13b6aecc]" started-at="2023-10-31T00:02:50 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:02:50 GMT-04:00" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="TC001_check_the_search_engine_google_JSON(java.lang.reflect.Method)[pri:0, instance:com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON@13b6aecc]" started-at="2023-10-31T00:02:50 GMT-04:00" name="TC001_check_the_search_engine_google_JSON" description="TC001 check the search engine Google - using JSON" finished-at="2023-10-31T00:02:54 GMT-04:00" duration-ms="4009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON.TC001_check_the_search_engine_google_JSON(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_check_the_search_engine_google_JSON -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON@13b6aecc]" started-at="2023-10-31T00:02:54 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:02:54 GMT-04:00" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.clover.solution.ui.test.TC001_check_the_search_engine_google_JSON -->
+    </test> <!-- Testing the Google search engine using JSON data file as source -->
+    <test started-at="2023-10-31T00:02:54 GMT-04:00" name="Testing the Google search engine using direct data by calling detailed method in page class" finished-at="2023-10-31T00:03:00 GMT-04:00" duration-ms="6025">
+      <class name="com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal@762ef0ea]" started-at="2023-10-31T00:02:54 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:02:54 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="TC002_check_the_search_engine_Google_Normal1(java.lang.reflect.Method)[pri:0, instance:com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal@762ef0ea]" started-at="2023-10-31T00:02:54 GMT-04:00" name="TC002_check_the_search_engine_Google_Normal1" description="TC002 check the search engine Google - Normal" finished-at="2023-10-31T00:02:57 GMT-04:00" duration-ms="2712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal.TC002_check_the_search_engine_Google_Normal1(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_check_the_search_engine_Google_Normal1 -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal@762ef0ea]" started-at="2023-10-31T00:02:57 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:02:57 GMT-04:00" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal@762ef0ea]" started-at="2023-10-31T00:02:57 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:02:57 GMT-04:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="TC003_check_the_search_engine_Google_type2(java.lang.reflect.Method)[pri:1, instance:com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal@762ef0ea]" started-at="2023-10-31T00:02:57 GMT-04:00" name="TC003_check_the_search_engine_Google_type2" description="TC003 check the search engine Google - type 2" finished-at="2023-10-31T00:03:00 GMT-04:00" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal.TC003_check_the_search_engine_Google_type2(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_check_the_search_engine_Google_type2 -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal@762ef0ea]" started-at="2023-10-31T00:03:00 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:03:00 GMT-04:00" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.clover.solution.ui.test.TC002_check_the_search_engine_Google_Normal -->
+    </test> <!-- Testing the Google search engine using direct data by calling detailed method in page class -->
+    <test started-at="2023-10-31T00:03:00 GMT-04:00" name="Testing the Google search engine using the declared method in page class from test" finished-at="2023-10-31T00:03:03 GMT-04:00" duration-ms="3208">
+      <class name="com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2@68567e20]" started-at="2023-10-31T00:03:00 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:03:00 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="TC003_check_the_search_engine_Google_type(java.lang.reflect.Method)[pri:0, instance:com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2@68567e20]" started-at="2023-10-31T00:03:00 GMT-04:00" name="TC003_check_the_search_engine_Google_type" description="TC003 check the search engine Google - type 2" finished-at="2023-10-31T00:03:03 GMT-04:00" duration-ms="3149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2.TC003_check_the_search_engine_Google_type(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_check_the_search_engine_Google_type -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2@68567e20]" started-at="2023-10-31T00:03:03 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:03:03 GMT-04:00" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.clover.solution.ui.test.TC003_check_the_search_engine_Google_type2 -->
+    </test> <!-- Testing the Google search engine using the declared method in page class from test -->
+    <test started-at="2023-10-31T00:03:03 GMT-04:00" name="Testing the clover site login, validate and navigating to pricing page and valdiate" finished-at="2023-10-31T00:03:50 GMT-04:00" duration-ms="46685">
+      <class name="com.clover.solution.ui.test.TC004_check_the_Clover_Site">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_Clover_Site@fa36558]" started-at="2023-10-31T00:03:03 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:03:03 GMT-04:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method retried="true" signature="TC004_check_the_Clover_Site_JSON(java.lang.reflect.Method)[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_Clover_Site@fa36558]" started-at="2023-10-31T00:03:03 GMT-04:00" name="TC004_check_the_Clover_Site_JSON" description="TC004 check the clover Site using JSON" finished-at="2023-10-31T00:03:41 GMT-04:00" duration-ms="37466" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC004_check_the_Clover_Site.TC004_check_the_Clover_Site_JSON(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Find the right solution to power your business] but found [ERROR]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Find the right solution to power your business] but found [ERROR]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.clover.solution.ui.page.BasePage.assertEqual(BasePage.java:321)
+at com.clover.solution.ui.page.CloverPage.cloverSiteCheck(CloverPage.java:58)
+at com.clover.solution.ui.test.TC004_check_the_Clover_Site.TC004_check_the_Clover_Site_JSON(TC004_check_the_Clover_Site.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_check_the_Clover_Site_JSON -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_Clover_Site@fa36558]" started-at="2023-10-31T00:03:41 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:03:41 GMT-04:00" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_Clover_Site@fa36558]" started-at="2023-10-31T00:03:41 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:03:41 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="TC004_check_the_Clover_Site_JSON(java.lang.reflect.Method)[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_Clover_Site@fa36558]" started-at="2023-10-31T00:03:41 GMT-04:00" name="TC004_check_the_Clover_Site_JSON" description="TC004 check the clover Site using JSON" finished-at="2023-10-31T00:03:50 GMT-04:00" duration-ms="8198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC004_check_the_Clover_Site.TC004_check_the_Clover_Site_JSON(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_check_the_Clover_Site_JSON -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_Clover_Site@fa36558]" started-at="2023-10-31T00:03:50 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:03:50 GMT-04:00" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.clover.solution.ui.test.TC004_check_the_Clover_Site -->
+    </test> <!-- Testing the clover site login, validate and navigating to pricing page and valdiate -->
+    <test started-at="2023-10-31T00:03:50 GMT-04:00" name="Testing the Bing search engine using Excel data file as source" finished-at="2023-10-31T00:03:56 GMT-04:00" duration-ms="6325">
+      <class name="com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata@3571b748]" started-at="2023-10-31T00:03:50 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:03:50 GMT-04:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method retried="true" signature="TC004_check_the_search_engine_bing_excel(java.lang.reflect.Method)[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata@3571b748]" started-at="2023-10-31T00:03:50 GMT-04:00" name="TC004_check_the_search_engine_bing_excel" description="TC004 check the search engine Bing - using excel data" finished-at="2023-10-31T00:03:53 GMT-04:00" duration-ms="3238" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the_search_engine_bing_excel(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Stock Markets, Business News, Financials, Earnings - CNBC] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Stock Markets, Business News, Financials, Earnings - CNBC] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.clover.solution.ui.page.BasePage.assertEqual(BasePage.java:321)
+at com.clover.solution.ui.page.SearchPage.searchAndAssert_bing(SearchPage.java:72)
+at com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the_search_engine_bing_excel(TC004_check_the_search_engine_bing_exceldata.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_check_the_search_engine_bing_excel -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata@3571b748]" started-at="2023-10-31T00:03:53 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:03:54 GMT-04:00" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata@3571b748]" started-at="2023-10-31T00:03:54 GMT-04:00" name="preCondition" finished-at="2023-10-31T00:03:54 GMT-04:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="TC004_check_the_search_engine_bing_excel(java.lang.reflect.Method)[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata@3571b748]" started-at="2023-10-31T00:03:54 GMT-04:00" name="TC004_check_the_search_engine_bing_excel" description="TC004 check the search engine Bing - using excel data" finished-at="2023-10-31T00:03:56 GMT-04:00" duration-ms="2126" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the_search_engine_bing_excel(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Stock Markets, Business News, Financials, Earnings - CNBC] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Stock Markets, Business News, Financials, Earnings - CNBC] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.clover.solution.ui.page.BasePage.assertEqual(BasePage.java:321)
+at com.clover.solution.ui.page.SearchPage.searchAndAssert_bing(SearchPage.java:72)
+at com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata.TC004_check_the_search_engine_bing_excel(TC004_check_the_search_engine_bing_exceldata.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_check_the_search_engine_bing_excel -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata@3571b748]" started-at="2023-10-31T00:03:56 GMT-04:00" name="postCondition" finished-at="2023-10-31T00:03:56 GMT-04:00" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="cooldown()[pri:0, instance:com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata@3571b748]" started-at="2023-10-31T00:03:57 GMT-04:00" name="cooldown" finished-at="2023-10-31T00:03:57 GMT-04:00" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cooldown -->
+      </class> <!-- com.clover.solution.ui.test.TC004_check_the_search_engine_bing_exceldata -->
+    </test> <!-- Testing the Bing search engine using Excel data file as source -->
+  </suite> <!-- Clover Test Automation Framework Assesessment Suite -->
+</testng-results>
